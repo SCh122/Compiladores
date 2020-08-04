@@ -1,3 +1,4 @@
+//Programa con declaraciones de funciones con diferentes tipos de valores de retorno
 float suma(float a , float b){
 	float resultado = a+b;
 	return resultado;
