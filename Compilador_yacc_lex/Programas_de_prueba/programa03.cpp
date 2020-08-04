@@ -1,3 +1,4 @@
+//Programa con uso de los condicionales IF , ELSE IF y ELSE
 int main(){
 	int rpta=0;
 	int a=6;
