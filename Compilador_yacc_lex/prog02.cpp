@@ -1,24 +1,26 @@
-bool esprimo(int num){
-	for(int i = num - 1; i > 1){
-		if((num % i) == 0){
-			return false;
-		}
-	}i--;
-	return true;
-}
-
-void primos(int n){
-	bool flag;
-	for(int i = 1; i <= n){
-		flag = esprimo(i);
-		if(flag == true){
-			print i;
-		}
-	}i++;
-}
-
 int main(){
- 	int n;
- 	in n;
- 	primos(n);
+	int rpta=0;
+	int a=6;
+	int b=3;
+	int op=3;
+	bool flag = true;
+	while ( flag == true ) {
+    		if ( a == 0 and b == 0 ) {
+    			    flag = false;
+    		}
+    		if ( op == 0 ) {
+    		    	rpta = a+b;
+    		}
+    		else if ( op == 1 ) {
+    		    	rpta = a-b;
+    		}
+    		else if ( op == 2 ) {
+    		    	rpta = a*b;
+    		}
+    		else if ( op == 3 ) {
+    		    	rpta = a/b;
+    		}
+    		flag = false;
+    		print rpta ;
+	}
 }
